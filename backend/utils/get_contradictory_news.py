@@ -52,7 +52,7 @@ def get_contradiction_news(politician_name: str):
 
         response_text = chat_completion.choices[0].message.content
         only_json = response_text.split("```")[1]
-        cleaned_json = only_json.replace("```json", "").replace("```", "").strip()
+        cleaned_json = only_json.replace("json", "").replace("```", "").strip()
 
         try:
             json_data = json.loads(cleaned_json)
