@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
       <nav className="flex items-center justify-between p-4 md:p-6">
         <Link href="/" className="text-2xl font-bold tracking-tight">
-          PolCon
+          PoliticalGPT
         </Link>
         <Link 
           href="https://github.com/SplinterSword/PoliticalGPT" 
